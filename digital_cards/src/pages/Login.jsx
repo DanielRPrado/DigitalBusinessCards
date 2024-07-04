@@ -24,9 +24,10 @@ const Login = () => {
   return (
     <body className="login">
       <main className="login-form">
-        <h2 className="title">Iniciar sesión</h2>
+        
         <form onSubmit={handleSubmit} className="form">
           <div>
+            <h2 className="title">Iniciar sesión</h2>
             <label>Email:</label>
             <input
               type="email"
